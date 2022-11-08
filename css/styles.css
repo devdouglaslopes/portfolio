@@ -365,6 +365,14 @@ i{
     top: 0px;
     left: 173px;
   }
+
+  #principal{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 20px;
+    left: 25px;
+  }
   
   h1{
     position: absolute;
@@ -496,9 +504,9 @@ i{
   }
   
   footer{
-    text-align: center;
-    float: inline;
-  
+    position: absolute;
+    left: 0px;
+    top: -131px;
   }
   
   i{
@@ -645,5 +653,155 @@ i{
   width: 87px;
   height: 36px;
   text-align: center;
+}
+
+@media  screen and (max-width: 375px){
+  
+  #principal_sobre{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 152px;
+    left: -164px;
+  }
+
+  #foto{
+    position: absolute;
+    width: 105px;
+    height: 228px;
+    left: 204px;
+    top: 9px;
+    border-radius: 40px;
+  }
+
+  #sobre_mim{
+    position: absolute;
+    width: 620px;
+    height: 67px;
+    left: 205px;
+    top: -63px;
+    font-family: 'Kanit', ;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 84px;
+    background: linear-gradient(90.63deg, #91a3ff -2.54%, #3b00cb 50.22%, #4393B5 110.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  #p3{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 321px;
+    top: 8px;
+  
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  
+    color: #ffffff;
+  }
+
+  #hard_skills{
+    position: absolute;
+    width:  183px;
+    height: 67px;
+    left: 203px;
+    top: 281px;
+    font-family: 'Kanit', ;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 84px;
+    background: linear-gradient(90.63deg, #556CE3 -2.54%, #508BC2 50.22%, #4393B5 110.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);;
+  }
+  
+  #footer_sobre{
+    position: absolute;
+    left: 5px;
+    top: 283px;
+  }
+  
+  #html{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 87px;
+    height: 36px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+  }
+  
+  #css{
+    position: absolute;
+    left: 171px;
+    top: 0px;
+    width: 87px;
+    height: 36px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+  }
+  
+  #javascript{
+    position: absolute;
+    left: 74px;
+    top: 213px;
+    width: 105px;
+    height: 36px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+  }
+  
+  #python{
+    position: absolute;
+    left: 0px;
+    top: 115px;
+    width: 87px;
+    height: 36px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+  }
+  
+  #php{
+    position: absolute;
+    left: 171px;
+    top: 115px;
+    width: 87px;
+    height: 36px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+  }
+  
+  #div_hardskills{
+    color: white;
+    position: absolute;
+    top: 384px;
+    left: 226px;
+    width: 87px;
+    height: 36px;
+    text-align: center;
+  }
+}
+
+#cards_github{
+  background-color: transparent;
+  position: absolute;
+  top: 143px;
+  left: 272px;
 }
 
