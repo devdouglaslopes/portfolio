@@ -801,7 +801,54 @@ i{
 #cards_github{
   background-color: transparent;
   position: absolute;
-  top: 143px;
+  top: 127px;
   left: 272px;
+}
+
+#github_stats{
+  position: absolute;
+  left: 404px;
+  top: 0px;
+}
+
+#most_used_languages{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#repo_card{
+  position: absolute;
+  left: 0px;
+  top: 225px;
+}
+
+#repo_portfolio{
+  width: 334px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+@media  screen and (max-width:375px){
+  #footer_portfolio{
+    position: absolute;
+    left: 0px;
+    top: -4px;
+  }  
+  #github_stats{
+    position: absolute;
+    left: -242px;
+    top: 164px;
+    width: 323px;
+    height: 200px;
+  }
+  
+  #most_used_languages{
+    position: absolute;
+    left: -247px;
+    top: 0px;
+  }
 }
 
